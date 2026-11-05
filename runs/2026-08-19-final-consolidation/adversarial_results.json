@@ -1,0 +1,212 @@
+[
+  {
+    "num": 1,
+    "name": "Embedding legacy path id resolves to canonical model",
+    "status": "PROVED_SAFE",
+    "detail": "dims=2560"
+  },
+  {
+    "num": 2,
+    "name": "Reranker legacy path id resolves to canonical model",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 3,
+    "name": "Embedding/Reranker remain after restart",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 4,
+    "name": "Retrieval directory symlinks valid",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 5,
+    "name": "No full duplicate retrieval weights",
+    "status": "PROVED_SAFE",
+    "detail": "0 bytes in retrieval/"
+  },
+  {
+    "num": 6,
+    "name": "No public duplicate model IDs",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 7,
+    "name": "Qwen3.6 NOT in public models after restart",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 8,
+    "name": "No client still points to Qwen3.6",
+    "status": "PROVED_SAFE",
+    "detail": "0 active refs"
+  },
+  {
+    "num": 9,
+    "name": "No mixed embedding spaces in Honcho",
+    "status": "PROVED_SAFE",
+    "detail": "1 dim only"
+  },
+  {
+    "num": 10,
+    "name": "Honcho E5 model responsive",
+    "status": "PROVED_SAFE",
+    "detail": "E5=1024"
+  },
+  {
+    "num": 11,
+    "name": "QMD CLI search still works",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 12,
+    "name": "Hermes config still valid",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 13,
+    "name": "gemma-agent wrapper exists",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 14,
+    "name": "Curator script exists",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 15,
+    "name": "Gemma text still works",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 16,
+    "name": "Gemma vision still works",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 17,
+    "name": "Gemma tool calling still works",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 18,
+    "name": "LFM inference works",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 19,
+    "name": "ArraysCache patch - no invalid recurrent warnings",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 20,
+    "name": "Embedding output finite and no NaN",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 21,
+    "name": "Reranker returns valid indices",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 22,
+    "name": "Cross-lingual retrieval works",
+    "status": "PROVED_SAFE",
+    "detail": "EN-FR sim 0.955"
+  },
+  {
+    "num": 23,
+    "name": "Lexical trap does not outrank semantic relevance",
+    "status": "PROVED_SAFE",
+    "detail": "Verified"
+  },
+  {
+    "num": 24,
+    "name": "Model switching doesnt evict required resident models",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 25,
+    "name": "All 4 required models loaded",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 26,
+    "name": "Concurrency doesnt destabilize",
+    "status": "PROVED_SAFE",
+    "detail": "8/8 OK"
+  },
+  {
+    "num": 27,
+    "name": "Restart persistence proven",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 28,
+    "name": "Restart didnt alter pinning",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 29,
+    "name": "Restart didnt change aliases",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 30,
+    "name": "Production runtime doesnt fall back to Homebrew",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 31,
+    "name": "Production runtime doesnt fall back to dev source",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 32,
+    "name": "No legacy LaunchAgent resurrection",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 33,
+    "name": "No broken retrieval symlinks",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 34,
+    "name": "No unjustified duplicate public models",
+    "status": "PROVED_SAFE",
+    "detail": "OK"
+  },
+  {
+    "num": 35,
+    "name": "E5 not being removed while live index needs it",
+    "status": "PROVED_SAFE",
+    "detail": "Honcho 3794 embeddings"
+  }
+]
